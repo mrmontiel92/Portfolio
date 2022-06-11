@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------Colores-------------------------*/
+
+.color1 {
+    color: #06283D;
+}
+
+.color2{
+    color: #1363DF;
+}
+
+.color3{
+    color: #DFF6FF;
+}
+
+/*----------------------------Nav Bar-----------------------*/
+
+.navbar {
+    padding: 0;
+    background-color: black !important;
+}
+
+.navbar span {
+    color: #1363DF;
+}
+
+.navbar li {
+    padding: 6px 0 6px 100px;
+    font-size: 1em;
+    margin-right: 2em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #DFF6FF !important;
+    background-color: #1363DF;
+    transition: 0.3s;
+    padding: 8px;
+}
+
+/*------------------------Index-----------------------*/
+
+.portada{
+    background-color: #06283D;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerIndex{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+}
+
+.containerIndexLeft{
+    width: 50%;
+    height: 95vh;
+    padding: 10% 5% 0 5%;
+}
+
+.containerIndexLeft h2{
+    text-align: center;
+    color: #DFF6FF;
+}
+
+.containerIndexLeft h2 span{
+    color: #1363DF;
+}
+
+.containerIndexLeft p{
+    color: #DFF6FF;
+}
+
+.containerIndexLeft button{
+    border: 1px solid #06283D;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #1363DF;
+    border-radius: 7px;
+    color: #DFF6FF;
+}
+
+.containerIndexRight{
+    width: 50%;
+    height: 95vh;
+}
+
+.containerIndexRight div{
+    width: 70%;
+    margin: 10% auto;
+    height: 80%;
+}
+
+.containerIndexRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*----------------------------------------------------------------------Conocimientos------------------------------------------------*/
+

@@ -1,66 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Index</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=}, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./estilos/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
+
 <body>
-    <header class="portada">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <p class="text-muted h2">M<span>M</span></p>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <p class="text-muted h2">M<span>M</span></p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header class="portada">
         <div class="containerIndex">
             <div class="containerIndexLeft" data-aos="fade-up">
                 <div>
                     <h2>Soy <span>Matias </span>Montiel</h2>
-                    <p>Estudiante y freelance developer con el objetivo de progresar en mi carrera como desarrollador, aprendiendo y mejorando constantemente ante los nuevos desafios y tecnologias.</p>
+                    <p>Estudiante y freelance developer con el objetivo de progresar en mi carrera como desarrollador,
+                        aprendiendo y mejorando constantemente ante los nuevos desafios y tecnologias.</p>
                     <button> Descargar CV</button>
                 </div>
             </div>
             <div class="containerIndexRight">
                 <div>
-                    <img src="./img/vertical1.jpg" alt="mati">
+                    <img src="./img/pruebamati4.png" alt="mati">
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section id="conocimientos" data-aos="fade-up">
+        <section id="conocimientos" class="containerConocimientos">
+            <h2>Conocimientos</h2>
+            <div data-aos="fade-right" class="html">
+                <h3>HTML CSS JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officiis iure facilis. Sunt similique adipisci quo consequuntur, ab fugiat fugit magnam, sapiente vero voluptate qui odio possimus perferendis hic? Temporibus.</p>
+            </div>
+            <div data-aos="fade-left" class="css">
+                <h3>Boostrap - Sass - Balsamiq</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cupiditate natus illum distinctio. Quas, consectetur vitae officiis, fugit veniam animi, in doloribus voluptas amet rerum ipsam ut voluptates! Eligendi, molestias.</p>
+            </div>
+            <div data-aos="fade-right" class="git">
+                <h3>Git</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda officiis iure facilis. Sunt similique adipisci quo consequuntur, ab fugiat fugit magnam, sapiente vero voluptate qui odio possimus perferendis hic? Temporibus.</p>
+            </div>
+        </section>
+        <section id="estudios" class="containerEstudios">
+            <h3>Estudios</h3>
+        </section>
+        <section id="experiencia">
 
         </section>
-        <section>
-
-        </section>
-        <section>
+        <section id="contacto">
 
         </section>
     </main>
@@ -69,4 +87,5 @@
 <script>
     AOS.init();
 </script>
+
 </html>

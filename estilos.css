@@ -22,7 +22,7 @@ main {
   color: #1363DF;
 }
 .navbar li {
-  padding: 6px 0 6px 100px;
+  padding: 6px 0 6px 30px;
   font-size: 1em;
   margin-right: 2em;
 }
@@ -97,55 +97,55 @@ main {
 }
 
 /*----------------------------------------------------------------------Conocimientos------------------------------------------------*/
-.containerConocimientos {
+.containerClaro {
   background-color: #DFF6FF;
+}
+.containerClaro h2 {
+  text-align: center;
   color: #06283D;
 }
-.containerConocimientos h2 {
-  text-align: center;
-}
 
-.html {
+.cardConocimientos {
   width: 40%;
   height: 30vh;
-  background-color: #DFF6FF;
-  margin-top: 5%;
-  margin-left: 5%;
   padding: 1%;
-  border: 2px solid #06283D;
+  background-image: linear-gradient(180deg, #06283D 80%, #1363DF 120%);
+  color: #DFF6FF;
+  box-shadow: 5px 10px 10px #333;
+}
+
+.cardConocimientos:nth-child(even) {
+  margin: 5% 0 5% 5%;
   overflow: auto;
 }
 
-.css {
-  width: 40%;
-  height: 30vh;
-  background-color: #DFF6FF;
-  margin-left: 50%;
-  margin-top: 10%;
-  padding: 1%;
-  border: 2px solid #06283D;
-  overflow: auto;
-}
-
-.git {
-  width: 40%;
-  height: 30vh;
-  background-color: #DFF6FF;
-  margin: 10% 0 5% 5%;
-  padding: 1%;
-  border: 2px solid #06283D;
+.cardConocimientos:nth-child(odd) {
+  margin: 5% 0 5% 50%;
   overflow: auto;
 }
 
 /*-----------------------------------------------Estudios------------------------------------------------*/
-.containerEstudios {
+.containerOscuro {
   width: 100%;
   height: 90vh;
   background-color: #06283D;
 }
-.containerEstudios h3 {
+.containerOscuro h3 {
   padding-top: 1%;
   text-align: center;
+  color: #DFF6FF;
+}
+
+.cardEstudios {
+  width: 30%;
+  height: 20vh;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.cardEstudios p {
+  color: #1363DF;
+}
+.cardEstudios h4 {
   color: #DFF6FF;
 }
 

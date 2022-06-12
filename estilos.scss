@@ -8,7 +8,7 @@
 
 /*--------------------------Colores-------------------------*/
 
-$color1:#06283D;
+$color1:rgb(6, 40, 61);
 $color2:#1363DF;
 $color3:#DFF6FF;
 
@@ -140,24 +140,35 @@ main{
 
 .containerOscuro{
     width: 100%;
-    height: 90vh;
     background-color: $color1;
     h3{
+        margin-bottom: 5%;
         padding-top: 1%;
         text-align: center;
         color: $color3;
     }
 }
 
+.estudiosRow{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .cardEstudios{
-    width: 30%;
-    height: 20vh;
-    margin-left: 5%;
-    margin-top: 5%;
+    width: 50%;
     p{
-        color: $color2;
+        color: $color3;
+        margin: 0;
     }
     h4{
-        color: $color3;
+        color: $color2;
     }
+}
+
+.estudiosImg{
+    object-fit:cover;
+    max-width: 100%;
 }
